@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:inter;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.nav1{
+    display: flex;
+    justify-content:space-between ;
+    padding: 20px;
+}
+.navleft{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.navright button{
+    margin-top: 70px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border: solid rgb(77, 54, 54) 2px;
+    font-size: 35px;
+}
+#but2{
+    width: 40px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav3{
+    background-color: black;
+}
+.nav3 img:hover{
+    opacity: 30%;
+}
+
+.nav3 img{
+    width: 100vw;
+    height: 850px;
+}
+
+.div1{
+    border-bottom: 1.5px solid black;
+    margin: 0px 60px 60px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.div1left {
+    margin-top: 40px;
+    font-size: 20px;
+    width: 50vw;
+    margin-bottom: 20px;
+}
+.div1right {
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.div1right h2{
+    margin-right: 30px;
+}
+
+.div1right{
+    border-left: 1.5px solid black;
+}
+
+.div2{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2left{
+    border-right: 1.5px solid black;
+    text-align: center;
+    padding: 20px 30px 30px;
+    width: 70vw;
+    font-size: 25px;
+}
+.div2rtupperleft{
+    width: 30vw;
+    padding: 0px 10px 10px;
+    border-right: 1.5px solid black;
+}
+.div2rtupperright{
+    width: 30vw;
+    padding: 0px 10px 10px;
+}
+.div2rtlowerleft{
+    width: 31vw;
+    margin-right: 20px;
+    padding: 0px 30px 10px;
+    border-right: 1.5px solid black;
+}
+.div2rtlowerright{
+    width: 30vw;
+    padding: 0px 10px 10px;
+}
+.div2rtupper{
+    margin: 0px 40px 40px;
+    border-bottom: 1.5px solid black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.div2rtlower{
+    margin: 0px 40px 40px;
+    font-size: 18px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.div2{
+    border-bottom: 1.5px solid black;
+    margin: 0px 5px 5px;
+
+}
+
+.div3{
+    font-weight: bold;
+    font-size: 53px;
+}
+.div4{
+    background-color: black;
+    width: 100vw;
+    height: 117vh;
+}
+.div4 img{
+    width: 100%;
+    position: absolute;
+    transition: .3s ease-out;
+}
+.div4 img:hover{
+    transition: .3s ease-in;
+    opacity: 30%;
+}
+.div4 i{
+    transform: scale(0);
+    color: white;
+    font-size: 80px;
+    margin: 50vh 50vw;
+    position: relative;
+    transition: .3s ease-out;
+}
+.div4 img:hover + i{
+    transition: .3s ease-in;
+    transform: scale(1);
+}
+.div4 i:hover{
+    transition: .3s ease-in;
+    transform: scale(1);
+}
+.div5{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.div5 h1{
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.div5 h4{
+    margin-top: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.div5 button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.div5 button:hover{
+    background-color: white;
+    color: black;
+
+}
+.div6{
+    background-color: black;
+}
+
+.div6 img{
+    width: 100vw;
+    height: 100vh;
+    transition: 0.3s ease-out;
+}
+
+.div6 img:hover{
+    opacity:30%;
+    transition: 0.3s ease-in;
+}
+
+.div7{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.div7 h1{
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.div7 h4{
+    margin-top: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.div7 button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.div7 button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.div8{
+    background-color: black;
+}
+
+.div8 img{
+    width: 100vw;
+}
+.div8 img:hover{
+    opacity: 60%;
+}
+
+
+.div9{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.div9 h1{
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.div9 h4{
+    margin-top: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.div9 button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.div9 button:hover{
+    background-color: white;
+    color: black;
+
+}
+.div10{
+    background-color: black;
+    color: white;
+}
+
+.div10 h4{
+font-size: 45px;
+margin-left: 45%;
+margin-top: 20px;
+}
+
+
+.div10 h1{
+    margin-top: 20px;
+    font-size: 80px;
+    margin-left: 40%;
+}
+
+
+.div10 button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+    margin-left: 43%;
+}
+
+.div10 button:hover{
+    color: white;
+    background-color: black;
+}
